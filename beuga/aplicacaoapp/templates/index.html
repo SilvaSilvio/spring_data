@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+    <h1>
+        Sílvio
+    </h1>
+    <img src="{% static 'css/img/luffy.jpg' %}" alt="">
+    <a href="{% url 'outra' %}">Próxima página</a>
+
+{% endblock %}
